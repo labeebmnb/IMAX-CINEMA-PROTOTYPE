@@ -1,0 +1,179 @@
+body
+{
+	background-color: #130f40;
+	background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);	
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  margin-left: 560px;
+}
+
+a {
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  color: #f4f4f4;
+  text-transform: uppercase;
+}
+
+.btn {
+  cursor:default; 
+  text-decoration: none;
+  border: 1px solid rgb(146, 148, 248);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:hover {
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(146, 148, 248, 0.4),
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.btn:hover:before {
+  left: 100%;
+}
+
+.top_heading
+{
+	width:20%;
+	margin-left:36%;
+}
+
+.top_heading h1
+{
+	color: #dc143c;
+}
+
+.select_movies
+{
+	background-image: url("images/netflix.jpg");
+	border-radius: 10px;
+	border:1px solid darkblue;
+	width: 1550px;
+	height: 1490px;
+	background-repeat: repeat;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.select_movies div section
+{
+	color: white;
+}
+
+.movie_div
+{
+	width: 255px;
+	height: 400px;
+	margin: 20px;
+}
+
+.movie_div section:hover
+{
+	color: yellow;
+	cursor: default;
+}
+
+.movie_div section input:hover
+{
+	cursor: pointer;
+}
+
+.movie_div img
+{
+	border-radius: 10px;
+	width: 97%;
+	height: 90%;
+	border:4px solid black;
+}
+
+
+
+.seat_table
+{
+	border: 1px solid blue;
+	padding:0px 10px;
+	background-color: #000000;
+	background-image: linear-gradient(315deg, #000000 0%, #5e5368 74%);
+
+}
+
+.tag
+{
+	width: 3px;
+	font-family: verdana;
+}
+
+td img:hover
+{
+	background-color: lightblue;
+}
+
+td input
+{
+	cursor: pointer;
+}
+
+.emptybox
+{
+	background-color: white;
+}
+
+.select_food
+{
+	border-radius: 10px;
+	border:2px solid darkblue;
+	width: 1200px;
+	height: 650px;
+	margin-left: 170px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.select_food div
+{
+	width: 250px;
+	height: 300px;
+	margin: 15px;
+}
+
+.select_food div section
+{
+	color: white;
+	cursor: default;
+}
+
+.select_food div section:hover
+{
+	color: yellow;
+}
+
+.select_food div input
+{
+	cursor: pointer;
+}
+
+.select_food div img
+{
+	border-radius: 10px;
+	width: 97%;
+	height: 60%;
+	border:2px solid black;
+}
